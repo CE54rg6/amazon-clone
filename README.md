@@ -9,7 +9,7 @@ A static HTML & CSS clone of an Amazon product page, built as a course project f
 - **Live site (GitHub Pages):** https://ce54rg6.github.io/amazon-clone/
 
 ## 📸 Screenshot
-![Screenshot](images/screenshot.jpg.png)
+![Screenshot](images/Screenshot.png)
 
 ## About This Project
 This project is a static clone of an Amazon product page built with**HTML and CSS only**.
