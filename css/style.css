@@ -141,7 +141,7 @@ a:hover {
 }
 .breadcrumb .current { color: #0F1111; }
 
-/* ===== PRODUCT PAGE ===== */
+/* ===== PRODUCT PAGE - 3 COLUMNS ===== */
 .product-page {
   display: grid;
   grid-template-columns: auto minmax(280px, 1fr) 250px;
@@ -151,11 +151,11 @@ a:hover {
   padding: 15px 20px 40px;
   align-items: start;
 }
+
 /* Images */
 .images-col {
   display: flex;
   gap: 12px;
-  flex-shrink: 0;
 }
 
 .thumbnails {
@@ -267,7 +267,7 @@ a:hover {
 }
 .size-btn .per { color: #565959; font-size: 12px; }
 
-/* ===== About section ===== */
+/* About section */
 .about-section {
   margin-top: 30px;
   padding-top: 20px;
@@ -328,7 +328,6 @@ a:hover {
   font-weight: 700;
 }
 
-/* Collapsible */
 .collapsible {
   border-top: 1px solid #e7e7e7;
   padding: 0;
@@ -343,21 +342,11 @@ a:hover {
   cursor: pointer;
   color: #0F1111;
   padding: 14px 0;
-  user-select: none;
-}
-
-.collapsible-header:hover {
-  color: #C7511F;
 }
 
 .collapsible-header .arrow {
   font-size: 16px;
   color: #565959;
-}
-
-.collapsible-content {
-  display: none;
-  padding-bottom: 16px;
 }
 
 /* ===== Buy Box ===== */
@@ -370,6 +359,7 @@ a:hover {
   top: 20px;
   align-self: start;
 }
+
 .buy-box .price-box {
   display: flex;
   align-items: baseline;
@@ -423,4 +413,5 @@ a:hover {
   justify-content: space-between;
   margin-bottom: 8px;
   color: #565959;
+  gap: 8px;
 }
